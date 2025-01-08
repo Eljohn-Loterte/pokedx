@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
-import backtoHome from "./src/assets/back-to-home.svg";
 
 export default function Details() {
   const [currentPokemon, setCurrentPokemon] = useState(null);
