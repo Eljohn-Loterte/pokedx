@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Main from './components/main';
+import Main from './components/Main';
 import PokemonList from './components/PokemonList';
 import Details from "./components/Details";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
