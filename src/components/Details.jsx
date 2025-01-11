@@ -79,7 +79,7 @@ export default function Details() {
           <div className="header-wrap">
             <Link to="/" className="back-btn-wrap">
               <img
-                src={"backtoHome"}
+                src="./src/assets/back-to-home.svg"
                 alt="back to home"
                 className="back-btn"
                 id="back-btn"
@@ -130,7 +130,7 @@ export default function Details() {
         <div className="pokemon-detail-wrapper">
           <div className="pokemon-detail-wrap">
             <div className="pokemon-detail">
-              <img src="../assets/weight.svg" alt="weight" />
+              <img src="./src/assets/weight.svg" alt="weight" />
               <p className="body3-fonts weight">{weight / 10}kg</p>
             </div>
             <p className="caption-fonts">Weight</p>
