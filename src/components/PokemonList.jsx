@@ -8,7 +8,9 @@ export default function PokemonList({ pokemons, loading, onPokemonClick }) {
         <div className="container">
           <div className="list-wrapper">
             {loading ? (
-              <p>Loading...</p>
+              <div className='loading-container' >
+                <p>Loading...</p>
+              </div>
             ) : pokemons.length > 0 ? (
               pokemons.map((pokemon) => {
                 const pokemonId = pokemon.url.split("/")[6];
