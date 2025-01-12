@@ -79,7 +79,7 @@ export default function Details() {
           <div className="header-wrap">
             <Link to="/" className="back-btn-wrap">
               <img
-                src="./src/assets/back-to-home.svg"
+                src="back-to-home.svg"
                 alt="back to home"
                 className="back-btn"
                 id="back-btn"
@@ -101,7 +101,7 @@ export default function Details() {
           disabled={id === 1}
           onClick={() => handleNavigate(id - 1)}
         >
-          <img src="/src/assets/chevron_left.svg" alt="back" />
+          <img src="chevron_left.svg" alt="back" />
         </button>
         <div className="detail-img-wrapper">
           <img
@@ -115,7 +115,7 @@ export default function Details() {
           disabled={id === MAX_POKEMONS}
           onClick={() => handleNavigate(id === 1025 ? 10001 : id + 1)}
         >
-          <img src="./src/assets/chevron_right.svg" alt="forward" />
+          <img src="chevron_right.svg" alt="forward" />
         </button>
       </div>
       <div className="detail-card-detail-wrapper">
@@ -130,14 +130,14 @@ export default function Details() {
         <div className="pokemon-detail-wrapper">
           <div className="pokemon-detail-wrap">
             <div className="pokemon-detail">
-              <img src="./src/assets/weight.svg" alt="weight" />
+              <img src="weight.svg" alt="weight" />
               <p className="body3-fonts weight">{weight / 10}kg</p>
             </div>
             <p className="caption-fonts">Weight</p>
           </div>
           <div className="pokemon-detail-wrap">
             <div className="pokemon-detail">
-              <img src="./src/assets/height.svg" alt="height" className="straighten" />
+              <img src="height.svg" alt="height" className="straighten" />
               <p className="body3-fonts height">{height / 10}m</p>
             </div>
             <p className="caption-fonts">Height</p>
