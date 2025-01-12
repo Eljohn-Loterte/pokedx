@@ -6,12 +6,12 @@ export default function Main({ searchTerm, setSearchTerm }) {
         <div className='header-home'>
         <div className="container">
             <div className="logo-wrapper">
-            <img src="./src/assets/pokeball.svg" alt="pokeball.svg" />
+            <img src="pokeball.svg" alt="pokeball.svg" />
             <h1>Pokedex</h1>
             </div>
             <div className='search-wrapper'>
                 <div className='search'>
-                    <img src="./src/assets/search.svg" alt="search-icon" />
+                    <img src="search.svg" alt="search-img" />
                     <input
                     type="text"
                     className='search-input body3-fonts'
