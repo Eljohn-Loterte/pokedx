@@ -11,7 +11,7 @@ export default function Main({ searchTerm, setSearchTerm }) {
             </div>
             <div className='search-wrapper'>
                 <div className='search'>
-                    <img src="./src/assets/search.svg" alt="search-icon" />
+                    <p><i class="fa-solid fa-magnifying-glass"></i></p>
                     <input
                     type="text"
                     className='search-input body3-fonts'
