@@ -632,3 +632,35 @@ div#not-found-message {
   border-color: transparent;
   background-color: transparent;
 }
+
+/*************** Responsive *************/
+
+@media only screen and (max-width: 500px) {
+  .detail-card-detail-wrapper {
+    width: 80%;
+    border-radius: 8px;
+    background-color: var(--grayscale-white);
+    box-shadow: var(--drop-shadow-inner);
+    padding: 20px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .detail-card-detail-wrapper {
+    width: 50%;
+    border-radius: 8px;
+    background-color: var(--grayscale-white);
+    box-shadow: var(--drop-shadow-inner);
+    padding: 20px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+  }
+}
